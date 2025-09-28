@@ -1,0 +1,319 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Spartan',sans-serif;
+
+}
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+
+
+
+}
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+
+h4 {
+    font-size: 20px;
+    color: black;
+}
+h6 {
+    font-weight: 700px;
+    line-height: 54px;
+    color: black;
+}
+p {
+    font-weight: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+/*padding*/
+.section-p1{
+    margin: 40px 0;
+
+}
+/*Margin*/
+.section-m1
+{
+    margin:40px 0;
+}
+
+
+
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+/* Header */
+/*adjusting icons on right*/
+
+
+
+#Product {
+	
+	text-align: center;
+}
+#Product h{
+	font-size: 60px;
+	
+}
+#Product .Location{
+	background-color: lightgrey;
+}
+#Product .Location p3{
+	color: black;
+	
+}
+#Product .Location p4{
+	margin-left: 900px;
+	color: black;
+
+}
+#Product .Location p5{
+	border : 10px solid #000000;
+	border-width: 2px;
+	color: black
+	
+}
+#Product p{
+	padding-top: 10px;
+	font-size: 40px;
+	color: brown;
+}
+#Product .Container{
+	
+	display:flex ;
+	justify-content: space-between;
+	padding-top: 10px;
+	flex-wrap: wrap;
+}
+#Product .Section{
+	width:23%;
+	min-width: 250px;
+	padding: 10px 12px;
+	border :1px solid #f3ebebf5;
+	border-radius: 25px;
+	box-shadow: 30px 30px 20px 50px rgba(11, 44, 75, 0.02);
+	cursor: pointer;
+	transition: 0.2s ease;
+
+}
+#Product .Section:hover{
+	box-shadow: 20px 20px 30px rgba(0,0,0, 0.06);
+
+
+}
+#Product .Section img{
+	width:80%;
+	height:300px;
+	border-radius: 20%;
+
+
+}
+#Product .Section p1{
+	color:blue;
+	padding-top: 3px;
+
+}
+#Product .Section h1{
+	padding-top: 3px;
+	font-size: 17px;
+}
+#Product .Section p2{
+	color:grey;
+	padding-top: 1px;
+}
+#Product .Section h2{
+	padding-top: 1px;
+	font-size: 17px;
+	font-weight: 700;
+	color:greenyellow;
+
+}
+
+#Product .Container .Section button a h4 {
+    margin-top: 1px;
+    margin-left: 1px;
+    background-color: transparent;
+    padding: 14px 80px 14px 65px;
+    color: #000000;
+    font-size: large;
+    border: 2px solid #fff;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+#Product .Container .Section button a p4{
+    margin-top: 1px;
+    margin-left: 1px;
+    background-color: transparent;
+    padding: 14px 80px 14px 65px;
+    font-size: xx-small;
+    color: rgb(16, 67, 109);
+    border: 2px solid #fff;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+#Product .Container .Section  button a h4:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+#Product .Container .Section  button a1 p4:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#title t{
+    text-align: center;
+    font-size: xxx-large;
+    font-weight:bold;
+    margin-left:400px;
+
+}
+#head{
+    display: flex;
+}
+#head h{
+
+    font-size: 30px;
+    padding-top: 18px;
+    margin-left: 10px;
+
+}
+#head h1{
+    padding-top: 5px;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 30px;
+
+}
+#head h2{
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 10px;
+    margin-left: 50px;
+
+
+
+}
+#head h3{
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 18px;
+    margin-left: 400px;
+
+
+}
+#head h4{
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 18px;
+    margin-left: 110px;
+
+
+}
+#head h5{
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 18px;
+    margin-left: 110px;
+
+
+}
+.info{
+    flex-wrap: wrap;
+}
+.info p{
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 18px;
+    margin-left: 20px;
+}
+.info img{
+    width:5%;
+	height:100px;
+
+	border-radius: 10%;
+    margin-left:100px ;
+}
+.info p2{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.info p3{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 1px;
+    margin-left: 350px;
+  
+}
+
+.info p4{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 1px;
+    margin-left: 150px;
+ 
+}
+.info p5{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 1px;
+    margin-left: 170px;
+ 
+}
+price{
+    border: 6px solid #20e22aa1;
+    border-radius: 10%;
+    margin-left: 1150px;
+    font-size: 30px;
+    font-weight: 100;
+}
+p6{
+    margin-left: 1150px;
+    font-size: 30px;
+    font-weight: 100;
+}
+button a check{
+    margin-top: 1px;
+    margin-left: 555px;
+    background-color: transparent;
+    font-size: x-large;
+    color: rgb(16, 67, 109);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    
+}
+button a check:hover {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Spartan',sans-serif;
+
+}
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+
+
+
+}
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+
+h4 {
+    font-size: 20px;
+    color: black;
+}
+h6 {
+    font-weight: 700px;
+    line-height: 54px;
+    color: black;
+}
+p {
+    font-weight: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+/*padding*/
+.section-p1{
+    margin: 40px 0;
+
+}
+/*Margin*/
+.section-m1
+{
+    margin:40px 0;
+}
+body{
+    width:100%;
+}
+
+/*applying bg image*/
+.container{
+    width: 100%;
+    height: 100vh;
+    /*for dark blue layer*/
+    background-image: linear-gradient(#faf0a1cc,#faf0a1cc),url(Image/bg_login.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.form-box{
+    width: 100%;
+    max-width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*to linr form box in center*/
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+/*sign up h1*/
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #3c00a0;
+    position: relative;
+}
+/*adding line below sign up*/
+.form-box h1::after{
+    content: ' ';
+    width:30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*fro input name etc*/
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+/*input box*/
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+/*for icon user etc*/
+.input-field i{
+    margin-left: 15px;
+    color: #999;
+}
+/*forget pass*/
+form p{
+    text-align: left;
+    font-size: 13px;
+}
+form p a{
+    text-decoration: none;
+    color:#3c00a0;
+}
+/* Sign up button*/
+.btn-field{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-field button {
+    flex-basis: 48%;
+    background: #3c00a0;
+    color:#fff;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+
+.btn-field  button.disable {
+    background:#eaeaea;
+    color:#555;
+
+}
+.btn-field button.disable:hover{
+    background-color: #6891d2;
+    color: rgb(255, 255, 255);
+}
+/* google button etc*/
+.btn-login {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Add margin to separate from the form */
+}
+
+.btn-login button  {
+    display: flex;
+    align-items: center;
+    background-color:#3c00a0;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-login button i {
+    margin-right: 5px;
+}
+
+.btn-login button:hover {
+    background-color: #6891d2;
+    color: rgb(255, 255, 255);
+}
